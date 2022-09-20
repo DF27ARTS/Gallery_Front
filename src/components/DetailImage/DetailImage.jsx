@@ -55,6 +55,7 @@ export default function DetailImage() {
       : false;
 
   const HandleDeleteImage = () => {
+    setRightMenu(false);
     dispatch(DeleteImage(Image));
   };
 
