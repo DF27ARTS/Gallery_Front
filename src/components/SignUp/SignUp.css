@@ -1,0 +1,32 @@
+.container_signUp {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0 0 200 / 30%);
+}
+
+.container_form_signUp {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 45vh;
+  width: 50vh;
+  padding: 7vh;
+  border-radius: 4vh;
+  background-color: rgb(255 255 255);
+  backdrop-filter: blur(3px);
+}
+
+.signUp_btn {
+  height:5vh;
+  width:50vh;
+  font-size: 2.8vh;
+  border: none;
+  margin: 0 auto;
+  margin-top: 2vh;
+  border-radius: 0.6vh;
+  background-color: rgb(0 0 55 / 90%);
+  color: rgb(255 255 255 / 70%);
+}

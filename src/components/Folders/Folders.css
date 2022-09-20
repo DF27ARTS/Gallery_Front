@@ -1,0 +1,113 @@
+.container_folders {
+  position: absolute;
+  display: grid;
+  top: 6vw;
+  right: 0;
+  min-height:100vh;
+  width: 18.5vw;
+  border-left: 1px solid rgba(109, 106, 106, 0.3);
+}
+
+.cont_input_folder {
+  position: relative;
+  display: grid;
+  padding-top: 2vw;
+  height: 9vw;
+  margin: 0;
+}
+
+#input_folder {
+  height: 4vw;
+  width: 16vw;
+  margin: 0 auto;
+  padding-left: 1vw;
+  border-radius: 0.5vw;
+  border: none;
+  border-bottom:1px solid rgba(48, 47, 51, 0.5);
+  outline: none;
+}
+
+.label_input_folder {
+  position: absolute;
+  top: 3vw;
+  left: 2vw;
+  font-size: 1.5vw;
+  color: rgba(48, 47, 51, 0.5);
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .7s;
+}
+
+#input_folder:focus + .label_input_folder,
+#input_folder:not(:placeholder-shown) + .label_input_folder {
+  top: 1vw;
+  left: 5.5vw;
+  font-size: 1.3vw;
+  font-weight: bold;
+  color: rgb(20, 18, 18, 0.7);
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .7s;
+}
+
+.btn_input_folder {
+  height: 3vw;
+  width: 17vw;
+  border: none;
+  border-radius: 0.7vw;
+  background-color: rgba(48, 47, 51, 0.5);
+  margin: 0 auto;
+  margin-top: 1vw;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn_input_folder:hover {
+  background-color: rgba(48, 47, 51, 0.7);
+}
+
+.btn_input_folder:active {
+  color: rgb(23, 90, 34);
+}
+
+.cont_folders {
+  position: absolute;
+  top: 11vw;
+  padding-bottom: 2vw;
+  min-height: 10vw;
+  width: 18.5vw;
+  display: block;
+  align-items: column;
+}
+
+.cont_main_folder {
+  position: relative;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 7vw;
+  width: 10vw;
+  border-radius: 1vw 1vw 0 0;
+}
+
+
+.main_folder_background_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 7vw;
+  width: 10vw;
+  cursor: pointer;
+  border-radius: 1vw 1vw 0 0;
+}
+
+.main_folder_title {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4vw;
+  padding: 0.5vw;
+  width: 9vw;
+  cursor: pointer;
+  bottom: 0;
+  background-image: linear-gradient(to top,  rgb(0 0 0 / 70%), rgb(0 0 0 / 50%), rgb(0 0 0 / 30%), rgb(0 0 0 / 10%), rgb(0 0 0 / 1%));
+  color: #fff
+}
